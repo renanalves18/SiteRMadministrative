@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d8e 85.61%);
+}
+
+.barra-superior{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px; 
+}
+
+.logo-home{
+    height: 72px;
+    border-radius: 40px;
+
+}
+
+.navegacoes{
+    display: flex;
+    gap: 62px;
+}
+
+.navegacoes-item{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo{
+    border-top: 0.4px solid #fff2e7;
+    margin-bottom: 48px solid;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400p´x;
+    font-size: 48px;
+    color: #fff;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300px;
+    font-size: 24px;
+    color: #ecd6c4;    
+}
+
+.conteudo-principal-escrito-botão:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.conteudo-principal-escrito-botão{
+    background-color: #ecd6c4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300px;
+    font-size: 17px;
+    color: #2f2325;
+}
+
+.conteudo-principal-escrito-vistoriador{
+    height: 330px;
+    width: 500px;
+    border-radius: 50px;
+    padding-top: 18px;
+    
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid #fff;
+    padding-top: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 38px;
+    color: #fff;
+    margin-bottom: 16px;   
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300px;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #fff;
+    color: #fff;
+    text-align: center;
+
+}
